@@ -1,0 +1,9 @@
+title = "DevSecOps Python Lab"
+
+[extend]
+useDefault = true
+
+[[rules]]
+id = "demo-api-token"
+description = "Detect committed demonstration API tokens"
+regex = '''DEMO_API_TOKEN\s*=\s*["'][A-Za-z0-9_-]{16,}["']'''

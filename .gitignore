@@ -1,0 +1,28 @@
+# Python virtual environment
+.venv/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Test and analysis caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IntelliJ project settings
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local environment and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Security reports
+bandit-report.json
+pip-audit-report.json
