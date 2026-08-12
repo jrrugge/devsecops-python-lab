@@ -18,3 +18,4 @@ updates:
   labels:
     - "dependencies"
     - "github-actions"
+- Pipeline validation test completed through a protected pull request.
